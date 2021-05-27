@@ -1,0 +1,23 @@
+CHIP Eq4 {
+    IN a[4], b[4];
+    OUT out;
+
+    PARTS:
+    
+    Xnor(a=a[0],b=b[0],out=c0);
+    Xnor(a=a[1],b=b[1],out=c1);
+    Xnor(a=a[2],b=b[2],out=c2);
+    Xnor(a=a[3],b=b[3],out=c3);
+
+    And(a=c0,b=c1,out=c0andc1);
+    And(a=c2,b=c3,out=c2andc3);
+
+    And(a=c0andc1,b=c2andc3,out=out);
+
+
+
+
+
+    
+
+}

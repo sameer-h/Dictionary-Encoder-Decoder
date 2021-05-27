@@ -1,0 +1,18 @@
+CHIP Eq16 {
+    IN a[16], b[16];
+    OUT out;
+
+    PARTS:
+    
+    Eq4(a=a[0..3],b=b[0..3],out=c0);
+    Eq4(a=a[4..7],b=b[4..7],out=c1);
+    Eq4(a=a[8..11],b=b[8..11],out=c2);
+    Eq4(a=a[12..15],b=b[12..15],out=c3);
+
+    And(a=c0,b=c1,out=c0andc1);
+    And(a=c2,b=c3,out=c2andc3);
+
+    And(a=c0andc1,b=c2andc3,out=out);
+
+
+}

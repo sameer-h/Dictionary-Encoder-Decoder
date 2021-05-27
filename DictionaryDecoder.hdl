@@ -1,0 +1,14 @@
+
+CHIP DictionaryDecoder{
+    IN in[16];
+    OUT outA[16],outB[16],outC[16],outD[16];
+
+    PARTS:
+    ROM32K(address[0..5]=in[0..5], out=decoded); //Gets value from dictionary. Assumes encoded.
+    Mux16(a=in,b=decoded,sel=in[15],out=outA);   
+    Mux16(a=false,b=decoded,sel=in[15],out=outBpos); //Sets outA if input was encoded.
+    Or(a=in[12], b=in[13], out=OneOrTwo);
+    Mux16(a=false,b=outBpos,sel=OneOrTwo,out=outB) ;   //Sets outB if recur = 1
+    Mux16(a=false,b=outBpos,sel=in[13],out=outC,out=outD) ;   //Sets outC and outD if recur = 2 
+
+}

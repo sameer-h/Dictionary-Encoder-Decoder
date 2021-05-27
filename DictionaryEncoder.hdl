@@ -1,0 +1,20 @@
+
+CHIP DictionaryEncoder{
+    IN recur[3], inA[16], inB[16];
+    OUT out[16];
+
+    PARTS:
+    ROM32K(address=inA[0..14], out[0..5]=encodeA);  //Encodes input. Sructure is out[15]=encoded/not, if encoded, out[12..14] store number of times pattern is repeated, out[0..11] is result from dictionary
+    ROM32K(address=inB[0..14], out[0..5]=encodeB);
+    Eq16(a[0..5]=encodeA, b=false, out=is01);      //checks if dictionary output is zero for first encode.
+    Eq16(a[0..5]=encodeB, b=false, out=is02);      //checks if dictionary output is zero for first encode.
+    Or(a=is01,b=is02,out=notEncoded);
+    Not(in=notEncoded,out=encoded);
+    Or(a=inA[15],b=inB[15],out=inputEncoded);
+    Not(in=inputEncoded,out=inputNotEncoded);
+    And(a=encoded,b=inputNotEncoded,out=select);
+    Or16(a[0..5]=encodeA,b[6..11]=encodeB,out[0..11]=stringpos);
+    Mux16(a=inA,b[0..11]=stringpos,b[12..14]=recur,b[15]=encoded,sel=select,out=out); //If encoded successfully, will output encoded signal. Otherwise will return first input. Consequence of this is that out[15] will show if signal was encoded.
+
+
+}
