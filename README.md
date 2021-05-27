@@ -1,6 +1,8 @@
 # Dictionary Encoder and Decoder
 Computers often store data using a compression algorithm to save space in memory. In this project, you will be implementing a hardware-based method of encoding and decoding data using dictionaries.
 
+Download the description docx file to see the full explanation on the project and its implementation.
+
 
 ## Instructions on how to run ##
 * Download the collateral provided on Canvas and use the skeletal files provided. Do not change the name of the files
