@@ -11,7 +11,7 @@ Computers often store data using a compression algorithm to save space in memory
 ### Build all of the chips in the list below ###
 
 Chip Name | File Name | Description
-| :--- | ---: | :---:
+| :---: | :---: | :---:
 DictionaryEncoder  | DictionaryEncoder.hdl | Encodes input using dictionary
 DictionaryDecoder  | DictionaryDecoder.hdl | Decodes encoded input using dictionary
 
