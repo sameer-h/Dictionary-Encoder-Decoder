@@ -1,4 +1,4 @@
-# Dictionary Encoder Decoder
+# Dictionary Encoder and Decoder
 Computers often store data using a compression algorithm to save space in memory. In this project, you will be implementing a hardware-based method of encoding and decoding data using dictionaries.
 
 
