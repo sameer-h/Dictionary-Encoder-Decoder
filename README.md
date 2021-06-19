@@ -1,5 +1,5 @@
 # Dictionary Encoder and Decoder
-Computers often store data using a compression algorithm to save space in memory. In this project, you will be implementing a hardware-based method of encoding and decoding data using dictionaries.
+Computers often store data using a compression algorithm to save space in memory. In this project, I implemented a hardware-based method of encoding and decoding data using dictionaries.
 
 Download the description docx file to see the full explanation on the project and its implementation.
 
