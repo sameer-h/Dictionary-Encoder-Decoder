@@ -1,3 +1,4 @@
+
 # Dictionary Encoder and Decoder
 Computers often store data using a compression algorithm to save space in memory. In this project, I implemented a hardware-based method of encoding and decoding data using dictionaries.
 
@@ -58,8 +59,5 @@ Where:
 #### VERY IMPORTANT: #### 
 - In order to run DictionaryEncoder.tst properly, one must first load the script, and complete one step.
 - Following this, View must be set to screen, and each of the 2 ROMs must be set to Dictionary.hack manually, since this cannot be done from the .tst.
-[My image](sameer-h.github.com/Dictionary-Encoder-Decoder/HDL.png)
-
-
-
-
+- 
+<img width="689" alt="HDL" src="https://user-images.githubusercontent.com/72811430/122632881-2b4e6b80-d09b-11eb-9fa2-aa721cd1960f.png">
