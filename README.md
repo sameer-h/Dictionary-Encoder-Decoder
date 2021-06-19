@@ -52,7 +52,7 @@ Chip Name | File Name | Description
 | :---: | :---: | :---:
 DictionaryEncoder  | DictionaryEncoder.hdl | Encodes input using dictionary
 DictionaryDecoder  | DictionaryDecoder.hdl | Decodes encoded input using dictionary
-Eq4 and Eq16       | Eq4.hdl / Eq16.hdl    | Checks equality of input bits
+Eq4 and Eq16       | Eq4.hdl , Eq16.hdl    | Checks equality of input bits
 
 ## How Things Work ## 
 ### 1. Dictionary Encoder is a chip with 3 Inputs: Recur[3], InA[16], and InB[16] ###
