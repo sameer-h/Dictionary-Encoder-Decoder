@@ -63,7 +63,8 @@ Eq4 and Eq16       | Eq4.hdl , Eq16.hdl    | Checks equality of input bits
 - Dictionary is loaded into both Rom32k Chips, and the address value for each is set to InA and InB respectively.
 - If either rom32K returns a 0 (default), this means encoding has failed, and output will be set to InA.
 - If both encodes are successful, output will be stored as:
-  #### 1010101110101011 #### 
+
+<img width="154" alt="Screen Shot 2021-06-19 at 5 16 47 PM" src="https://user-images.githubusercontent.com/72811430/122656648-2da7d880-d122-11eb-8e8c-1fabf6d9ac26.png">
 
 Where:
 - out[15] (Blue) stores a 1 if encoding was successful, 0 if not
