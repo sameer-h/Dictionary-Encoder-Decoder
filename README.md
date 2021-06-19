@@ -58,6 +58,8 @@ Where:
 #### VERY IMPORTANT: #### 
 - In order to run DictionaryEncoder.tst properly, one must first load the script, and complete one step.
 - Following this, View must be set to screen, and each of the 2 ROMs must be set to Dictionary.hack manually, since this cannot be done from the .tst.
-![alt text](https://github.com/[sameer-h]/[Dictionary-Encoder-Decoder]/blob/[main]/HDL.png?raw=true)
+[My image](sameer-h.github.com/Dictionary-Encoder-Decoder/HDL.png)
+
+
 
 
