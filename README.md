@@ -64,8 +64,10 @@ Where:
 
 ## Logic Diagrams ##
 ### Dictionary Encoder ###
+
 <img width="877" alt="Screen Shot 2021-06-19 at 1 12 39 AM" src="https://user-images.githubusercontent.com/72811430/122632970-98fa9780-d09b-11eb-9ff6-1063bae2982b.png">
 
 ### Dictionary Decoder ###
+
 <img width="723" alt="Screen Shot 2021-06-19 at 1 12 55 AM" src="https://user-images.githubusercontent.com/72811430/122632979-a44dc300-d09b-11eb-9779-26e3df06e551.png">
 
