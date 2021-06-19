@@ -46,12 +46,12 @@ Where:
 ### 3.	Dictionary and Inverse: ###
 -	Dictionary and Inverse are obtained by Running DictionaryCreator.py with DictionaryCreatorInput.txt as an argument. This text file teaches the Dictionary and Inverse what data to store for efficient compression. Default output files are Dictionary.hack and DictionaryInv.hack
 
-### D.	Other Files: ###
+### 4. Other Files: ###
 -	There are 2 other Python Files in sources. These are DictionaryEncoder.py and DictionaryDecoder.py
 -	DictionaryEncoder.py uses the same method of compression as your DictionaryEncoder.hdl to compress input data. It also shows the size difference between the input and output. Looking at this file may give clues on how to implement DictionaryEncoder.hdl.
 -	DictionaryDecoder.py uses the same method of compression as your DictionaryDecoder.hdl to decompress input data. The output matches the input file of DictionaryEncoder.hdl.
 -	The data in DictionaryCreatorInput.txt is the same as in DictionaryEncoder.tst, the only difference is representation in ASCII/Hex form for inputs.
 
-
+## Important ##
 
 
