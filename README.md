@@ -17,3 +17,16 @@ Chip Name | File Name | Description
 DictionaryEncoder  | DictionaryEncoder.hdl | Encodes input using dictionary
 DictionaryDecoder  | DictionaryDecoder.hdl | Decodes encoded input using dictionary
 
+### How Things Work ###
+- Dictionary Encoder is a chip with 3 Inputs: Recur[3], InA[16], and InB[16]
+  -  Recur stores encoded value for how many times input pattern is repeated. Value ranges from 0-7.
+  - InA stores the first 16-bit pattern to be encoded.
+  - InB stores the first 16-bit pattern to be encoded.
+
+- Dictionary is loaded into both Rom32k Chips, and the address value for each is set to InA and InB respectively.
+- If either rom32K returns a 0 (default), this means encoding has failed, and output will be set to InA.
+- If both encodes are successful, output will be stored as
+1010101110101011
+
+
+
