@@ -1,7 +1,7 @@
 # Dictionary Encoder and Decoder
 Computers often store data using a compression algorithm to save space in memory. In this project, I implemented a hardware-based method of encoding and decoding data using dictionaries.
 
-Download the description docx file to see the full explanation on the project and its implementation.
+Download the description docx file in this repo to see the full explanation on the project and its implementation.
 
 
 ## Instructions on how to run ##
