@@ -29,7 +29,7 @@ for line in filelines: #Find common patterns and how often they appear
 
 I also have a similar .py file for running the actual Encode and Decode operations based on the HDL.
 
-I often have to convert from ASCII to binary in doing so I created functions in Python:
+I often have to convert from ASCII to binary so I created functions in Python:
 ``` python
 def text_to_bits(text, encoding='utf-8', errors='surrogatepass'):
     bits = bin(int(binascii.hexlify(text.encode(encoding, errors)), 16))[2:]
