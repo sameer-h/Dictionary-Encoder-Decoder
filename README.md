@@ -53,5 +53,12 @@ Where:
 -	The data in DictionaryCreatorInput.txt is the same as in DictionaryEncoder.tst, the only difference is representation in ASCII/Hex form for inputs.
 
 ## Important ##
+-	Valid inputs for DictionaryEncoder must not start with a 1. This is for 2 reasons: Rom32K has only 15 address bits, and a 1 indicates an encoded signal. If input starts with a 1, encoding should automatically fail and InA should be returned.
+-	Valid inputs for DictionaryDecoder must start with a 1 for the same reason as before.
+#### VERY IMPORTANT: #### 
+- In order to run DictionaryEncoder.tst properly, one must first load the script, and complete one step.
+- Following this, View must be set to screen, and each of the 2 ROMs must be set to Dictionary.hack manually, since this cannot be done from the .tst.
+
+
 
 
