@@ -5,11 +5,7 @@ Computers often store data using a compression algorithm to save space in memory
 Download the description docx file in this repo to see the full explanation on the project and its implementation.
 
 
-## Instructions on how to run ##
-* Download the collateral provided on Canvas and use the skeletal files provided. Do not change the name of the files
-* Add your full name and UIN to the introductory comment present in each .hdl file
-* Implement the .hdl for each chip
-* Test the basic chips using the completed .tst and .comp files provided
+## Overview ##
 
 ### Build all of the chips in the list below ###
 
