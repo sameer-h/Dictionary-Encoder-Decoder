@@ -6,6 +6,28 @@ Download the description docx file in this repo to see the full explanation on t
 
 
 ## Overview ##
+- In this project I used HDL, a specialized computer language used to program electronic and digital logic circuits. This allows me to build the actual chips.
+- I also used Python to create the actual dictionary and interact with it as so:
+``` python
+import sys  
+import binascii
+
+...
+
+Dictionary = []
+Recursions = []
+for line in filelines: #Find common patterns and how often they appear
+    line = line.strip()
+    for i in range(0,len(line),2):
+        if (line[i:i+2] in Dictionary):
+            Recursions[Dictionary.index(line[i:i+2])] += 1
+        else:
+            Dictionary.append(line[i:i+2])
+            Recursions.append(1)
+            
+```
+
+
 
 ### Build all of the chips in the list below ###
 
