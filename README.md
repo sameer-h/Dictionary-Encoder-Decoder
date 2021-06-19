@@ -59,5 +59,13 @@ Where:
 #### VERY IMPORTANT: #### 
 - In order to run DictionaryEncoder.tst properly, one must first load the script, and complete one step.
 - Following this, View must be set to screen, and each of the 2 ROMs must be set to Dictionary.hack manually, since this cannot be done from the .tst.
-- 
 <img width="689" alt="HDL" src="https://user-images.githubusercontent.com/72811430/122632881-2b4e6b80-d09b-11eb-9fa2-aa721cd1960f.png">
+- Following this, the rest of the script file can be run.
+
+## Logic Diagrams ##
+### Dictionary Encoder ###
+<img width="877" alt="Screen Shot 2021-06-19 at 1 12 39 AM" src="https://user-images.githubusercontent.com/72811430/122632970-98fa9780-d09b-11eb-9ff6-1063bae2982b.png">
+
+### Dictionary Decoder ###
+<img width="723" alt="Screen Shot 2021-06-19 at 1 12 55 AM" src="https://user-images.githubusercontent.com/72811430/122632979-a44dc300-d09b-11eb-9779-26e3df06e551.png">
+
