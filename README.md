@@ -43,7 +43,7 @@ def make16Bit(value):
 ```
 These take input and convert it to what their function name suggests.
 
-Next, I'll explain the HDL I wrote for the actual logic behind the project.
+Next, I'll explain the HDL I wrote for the actual logic behind the project. This next section outlines the theoretical description of the code.
 
 
 ### Build all of the chips in the list below ###
